@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB703DF1BB442EF00046575 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB703DE1BB442EF00046575 /* AppDelegate.m */; };
+		CDB703E21BB442EF00046575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB703E11BB442EF00046575 /* main.m */; };
+		CDB703E51BB442EF00046575 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB703E41BB442EF00046575 /* ViewController.m */; };
+		CDB703E71BB442EF00046575 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB703E61BB442EF00046575 /* Assets.xcassets */; };
+		CDB703EA1BB442EF00046575 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB703E81BB442EF00046575 /* Main.storyboard */; };
+		CDB703F51BB442EF00046575 /* framed_macTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB703F41BB442EF00046575 /* framed_macTests.m */; };
+		CDB704001BB442EF00046575 /* framed_macUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB703FF1BB442EF00046575 /* framed_macUITests.m */; };
+		CDD599041BE0C4FE00E7D6F2 /* DraggingView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD599031BE0C4FE00E7D6F2 /* DraggingView.m */; };
+		CDD599081BE2081300E7D6F2 /* DraggingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD599071BE2081300E7D6F2 /* DraggingButton.m */; };
+		CDD5990B1BE2081D00E7D6F2 /* DraggingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD5990A1BE2081D00E7D6F2 /* DraggingImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDB703F11BB442EF00046575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB703D21BB442EF00046575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB703D91BB442EF00046575;
+			remoteInfo = "framed-mac";
+		};
+		CDB703FC1BB442EF00046575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDB703D21BB442EF00046575 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDB703D91BB442EF00046575;
+			remoteInfo = "framed-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDB703DA1BB442EF00046575 /* Framed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Framed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB703DD1BB442EF00046575 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB703DE1BB442EF00046575 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB703E11BB442EF00046575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB703E31BB442EF00046575 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDB703E41BB442EF00046575 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDB703E61BB442EF00046575 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB703E91BB442EF00046575 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB703EB1BB442EF00046575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB703F01BB442EF00046575 /* Framed.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Framed.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB703F41BB442EF00046575 /* framed_macTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = framed_macTests.m; sourceTree = "<group>"; };
+		CDB703F61BB442EF00046575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB703FB1BB442EF00046575 /* Framed.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Framed.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB703FF1BB442EF00046575 /* framed_macUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = framed_macUITests.m; sourceTree = "<group>"; };
+		CDB704011BB442EF00046575 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD599021BE0C4FE00E7D6F2 /* DraggingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingView.h; sourceTree = "<group>"; };
+		CDD599031BE0C4FE00E7D6F2 /* DraggingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingView.m; sourceTree = "<group>"; };
+		CDD599051BE2054500E7D6F2 /* ImageDraggedDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDraggedDelegate.h; sourceTree = "<group>"; };
+		CDD599061BE2081300E7D6F2 /* DraggingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingButton.h; sourceTree = "<group>"; };
+		CDD599071BE2081300E7D6F2 /* DraggingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingButton.m; sourceTree = "<group>"; };
+		CDD599091BE2081D00E7D6F2 /* DraggingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggingImageView.h; sourceTree = "<group>"; };
+		CDD5990A1BE2081D00E7D6F2 /* DraggingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggingImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB703D71BB442EF00046575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703ED1BB442EF00046575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703F81BB442EF00046575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDB703D11BB442EF00046575 = {
+			isa = PBXGroup;
+			children = (
+				CDB703DC1BB442EF00046575 /* framed-mac */,
+				CDB703F31BB442EF00046575 /* framed-macTests */,
+				CDB703FE1BB442EF00046575 /* framed-macUITests */,
+				CDB703DB1BB442EF00046575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB703DB1BB442EF00046575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB703DA1BB442EF00046575 /* Framed.app */,
+				CDB703F01BB442EF00046575 /* Framed.xctest */,
+				CDB703FB1BB442EF00046575 /* Framed.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB703DC1BB442EF00046575 /* framed-mac */ = {
+			isa = PBXGroup;
+			children = (
+				CDB703DD1BB442EF00046575 /* AppDelegate.h */,
+				CDB703DE1BB442EF00046575 /* AppDelegate.m */,
+				CDB703E31BB442EF00046575 /* ViewController.h */,
+				CDB703E41BB442EF00046575 /* ViewController.m */,
+				CDD599021BE0C4FE00E7D6F2 /* DraggingView.h */,
+				CDD599031BE0C4FE00E7D6F2 /* DraggingView.m */,
+				CDD599061BE2081300E7D6F2 /* DraggingButton.h */,
+				CDD599071BE2081300E7D6F2 /* DraggingButton.m */,
+				CDD599091BE2081D00E7D6F2 /* DraggingImageView.h */,
+				CDD5990A1BE2081D00E7D6F2 /* DraggingImageView.m */,
+				CDD599051BE2054500E7D6F2 /* ImageDraggedDelegate.h */,
+				CDB703E61BB442EF00046575 /* Assets.xcassets */,
+				CDB703E81BB442EF00046575 /* Main.storyboard */,
+				CDB703EB1BB442EF00046575 /* Info.plist */,
+				CDB703E01BB442EF00046575 /* Supporting Files */,
+			);
+			path = "framed-mac";
+			sourceTree = "<group>";
+		};
+		CDB703E01BB442EF00046575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB703E11BB442EF00046575 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDB703F31BB442EF00046575 /* framed-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB703F41BB442EF00046575 /* framed_macTests.m */,
+				CDB703F61BB442EF00046575 /* Info.plist */,
+			);
+			path = "framed-macTests";
+			sourceTree = "<group>";
+		};
+		CDB703FE1BB442EF00046575 /* framed-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDB703FF1BB442EF00046575 /* framed_macUITests.m */,
+				CDB704011BB442EF00046575 /* Info.plist */,
+			);
+			path = "framed-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB703D91BB442EF00046575 /* Framed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB704041BB442EF00046575 /* Build configuration list for PBXNativeTarget "Framed" */;
+			buildPhases = (
+				CDB703D61BB442EF00046575 /* Sources */,
+				CDB703D71BB442EF00046575 /* Frameworks */,
+				CDB703D81BB442EF00046575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Framed;
+			productName = "framed-mac";
+			productReference = CDB703DA1BB442EF00046575 /* Framed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDB703EF1BB442EF00046575 /* FramedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB704071BB442EF00046575 /* Build configuration list for PBXNativeTarget "FramedTests" */;
+			buildPhases = (
+				CDB703EC1BB442EF00046575 /* Sources */,
+				CDB703ED1BB442EF00046575 /* Frameworks */,
+				CDB703EE1BB442EF00046575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB703F21BB442EF00046575 /* PBXTargetDependency */,
+			);
+			name = FramedTests;
+			productName = "framed-macTests";
+			productReference = CDB703F01BB442EF00046575 /* Framed.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDB703FA1BB442EF00046575 /* FramedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7040A1BB442EF00046575 /* Build configuration list for PBXNativeTarget "FramedUITests" */;
+			buildPhases = (
+				CDB703F71BB442EF00046575 /* Sources */,
+				CDB703F81BB442EF00046575 /* Frameworks */,
+				CDB703F91BB442EF00046575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDB703FD1BB442EF00046575 /* PBXTargetDependency */,
+			);
+			name = FramedUITests;
+			productName = "framed-macUITests";
+			productReference = CDB703FB1BB442EF00046575 /* Framed.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB703D21BB442EF00046575 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Multicoloured Software";
+				TargetAttributes = {
+					CDB703D91BB442EF00046575 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = G5F69H942J;
+					};
+					CDB703EF1BB442EF00046575 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDB703D91BB442EF00046575;
+					};
+					CDB703FA1BB442EF00046575 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CDB703D91BB442EF00046575;
+					};
+				};
+			};
+			buildConfigurationList = CDB703D51BB442EF00046575 /* Build configuration list for PBXProject "Framed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB703D11BB442EF00046575;
+			productRefGroup = CDB703DB1BB442EF00046575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB703D91BB442EF00046575 /* Framed */,
+				CDB703EF1BB442EF00046575 /* FramedTests */,
+				CDB703FA1BB442EF00046575 /* FramedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB703D81BB442EF00046575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB703E71BB442EF00046575 /* Assets.xcassets in Resources */,
+				CDB703EA1BB442EF00046575 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703EE1BB442EF00046575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703F91BB442EF00046575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB703D61BB442EF00046575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD599081BE2081300E7D6F2 /* DraggingButton.m in Sources */,
+				CDB703E51BB442EF00046575 /* ViewController.m in Sources */,
+				CDB703E21BB442EF00046575 /* main.m in Sources */,
+				CDB703DF1BB442EF00046575 /* AppDelegate.m in Sources */,
+				CDD599041BE0C4FE00E7D6F2 /* DraggingView.m in Sources */,
+				CDD5990B1BE2081D00E7D6F2 /* DraggingImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703EC1BB442EF00046575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB703F51BB442EF00046575 /* framed_macTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB703F71BB442EF00046575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB704001BB442EF00046575 /* framed_macUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDB703F21BB442EF00046575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB703D91BB442EF00046575 /* Framed */;
+			targetProxy = CDB703F11BB442EF00046575 /* PBXContainerItemProxy */;
+		};
+		CDB703FD1BB442EF00046575 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDB703D91BB442EF00046575 /* Framed */;
+			targetProxy = CDB703FC1BB442EF00046575 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDB703E81BB442EF00046575 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB703E91BB442EF00046575 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB704021BB442EF00046575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDB704031BB442EF00046575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDB704051BB442EF00046575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-mac";
+				PRODUCT_NAME = Framed;
+			};
+			name = Debug;
+		};
+		CDB704061BB442EF00046575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-mac";
+				PRODUCT_NAME = Framed;
+			};
+			name = Release;
+		};
+		CDB704081BB442EF00046575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-macTests";
+				PRODUCT_NAME = Framed;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Framed.app/Contents/MacOS/Framed";
+			};
+			name = Debug;
+		};
+		CDB704091BB442EF00046575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-macTests";
+				PRODUCT_NAME = Framed;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Framed.app/Contents/MacOS/Framed";
+			};
+			name = Release;
+		};
+		CDB7040B1BB442EF00046575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-macUITests";
+				PRODUCT_NAME = Framed;
+				TEST_TARGET_NAME = "framed-mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDB7040C1BB442EF00046575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "framed-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.multicolouredsoftware.framed-macUITests";
+				PRODUCT_NAME = Framed;
+				TEST_TARGET_NAME = "framed-mac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB703D51BB442EF00046575 /* Build configuration list for PBXProject "Framed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB704021BB442EF00046575 /* Debug */,
+				CDB704031BB442EF00046575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB704041BB442EF00046575 /* Build configuration list for PBXNativeTarget "Framed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB704051BB442EF00046575 /* Debug */,
+				CDB704061BB442EF00046575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB704071BB442EF00046575 /* Build configuration list for PBXNativeTarget "FramedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB704081BB442EF00046575 /* Debug */,
+				CDB704091BB442EF00046575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB7040A1BB442EF00046575 /* Build configuration list for PBXNativeTarget "FramedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB7040B1BB442EF00046575 /* Debug */,
+				CDB7040C1BB442EF00046575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB703D21BB442EF00046575 /* Project object */;
+}
